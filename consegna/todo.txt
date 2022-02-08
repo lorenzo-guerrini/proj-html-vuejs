@@ -1,1 +1,2 @@
 Inserire in vars.scss variabili ombre
+Inserire Loader da qualche parte
