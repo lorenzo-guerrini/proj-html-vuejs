@@ -34,11 +34,4 @@ export default {
   font-family: "now-light";
   src: local("now-light"), url("./assets/fonts/now-light.otf");
 }
-
-body {
-  font-family: "Poppins", sans-serif;
-  h2 {
-    font-family: $fontMain;
-  }
-}
 </style>

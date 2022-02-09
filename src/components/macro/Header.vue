@@ -29,7 +29,7 @@
           </div>
         </div>
 
-        <button>Get Started</button>
+        <a href="" class="button">Get Started</a>
       </nav>
     </div>
   </header>
@@ -87,8 +87,6 @@ header {
   justify-content: space-between;
   align-items: center;
 
-  width: 950px;
-  margin: auto;
   padding: 5px 0;
 }
 
@@ -102,6 +100,8 @@ header {
 nav {
   display: flex;
   margin-right: 80px;
+
+  color: $textColorMain;
 
   ul {
     display: flex;
@@ -135,7 +135,7 @@ nav {
     }
   }
 
-  button {
+  a.button {
     font-size: 10.5px;
     font-weight: bold;
   }
