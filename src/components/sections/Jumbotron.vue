@@ -3,16 +3,15 @@
   <section>
     <div class="jumbotron">
       <div class="text">
-        <h1>The biggest platform for your growth.</h1>
+        <h1>{{ title }}</h1>
         <p>
-          There are many variations of passages of Lorem Ipsum aviable, but the
-          majority have suffered alteration in some form
+          {{ paragraph }}
         </p>
-        <button>Read More</button>
+        <a class="button" :href="buttonLink">Read More</a>
       </div>
 
       <div class="image">
-        <img src="../../assets/img/27-1.png" alt="jumbotron" />
+        <img :src="require(`../../assets/img/${image}`)" alt="jumbotron" />
       </div>
     </div>
   </section>
@@ -21,6 +20,12 @@
 <script>
 export default {
   name: "Jumbotron",
+  props: {
+    title: String,
+    paragraph: String,
+    buttonLink: String,
+    image: String,
+  },
 };
 </script>
 
@@ -46,7 +51,7 @@ export default {
     margin-bottom: 45px;
   }
 
-  button {
+  a.button {
     font-size: 12px;
 
     margin-bottom: 35px;
