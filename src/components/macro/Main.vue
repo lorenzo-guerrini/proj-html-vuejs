@@ -1,7 +1,7 @@
 <template>
   <!-- Commons: SmallList -->
   <!-- Sections: Jumbotron, TextAndImage, Features, Testimonials, Posts, Contact -->
-  <main>Ciao</main>
+  <main><h2>Ciao</h2></main>
 </template>
 
 <script>

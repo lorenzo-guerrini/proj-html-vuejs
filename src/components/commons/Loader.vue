@@ -4,10 +4,8 @@
 
 <script>
 export default {
-name: "Loader",
-}
+  name: "Loader",
+};
 </script>
 
-<style>
-
-</style>
+<style></style>
