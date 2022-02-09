@@ -8,7 +8,11 @@
 
       <nav>
         <ul>
-          <li v-for="(item, i) in menuItems" :key="item.text + i" :class="{'active' : item.active}">
+          <li
+            v-for="(item, i) in menuItems"
+            :key="item.text + i"
+            :class="{ active: item.active }"
+          >
             <a :href="item.url">{{ item.text }}</a>
           </li>
         </ul>
@@ -19,6 +23,9 @@
           </div>
           <div class="cart">
             <i class="fa-solid fa-cart-shopping"></i>
+            <div class="cart-counter">
+              <span>{{ cartCounter }}</span>
+            </div>
           </div>
         </div>
 
@@ -60,6 +67,7 @@ export default {
           active: false,
         },
       ],
+      cartCounter: 0,
     };
   },
 };
@@ -81,7 +89,7 @@ header {
 
   width: 950px;
   margin: auto;
-  padding: 10px 0;
+  padding: 5px 0;
 }
 
 .logo {
@@ -130,6 +138,27 @@ nav {
   button {
     font-size: 10.5px;
     font-weight: bold;
+  }
+}
+
+.cart {
+  position: relative;
+
+  .cart-counter {
+    position: absolute;
+    top: -7px;
+    left: -1px;
+
+    font-size: 8px;
+
+    background-color: $backgroundColorThird;
+    color: $textColorFourth;
+
+    padding: 4px 5px 2px 5px;
+    border-radius: 50%;
+
+    text-align: center;
+    z-index: -1;
   }
 }
 </style>
