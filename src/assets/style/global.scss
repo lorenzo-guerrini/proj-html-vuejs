@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+.container {
+    max-width: 950px;
+    margin: auto;
+}
+
 a {
     text-decoration: none;
     color: $textColorMain;
@@ -19,4 +24,29 @@ button {
     padding: 1em 1.5em;
     border-radius: 2px;
     cursor: pointer;
-  }
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    color: $textColorSecond;
+    font-size: 12px;
+    line-height: 20px;
+
+    h1 {
+        font-family: $fontMain;
+        color: $textColorMain;
+        font-size: 35px;
+        line-height: 60px;
+    }
+
+    h2 {
+      font-family: $fontMain;
+      color: $textColorMain;
+    }
+
+
+}
+
+i {
+    color: $iconColorMain;
+}
