@@ -3,7 +3,7 @@
   <header>
     <div class="container">
       <div class="logo">
-        <img src="../../assets/img/logo-2.png" alt="Sofbox" />
+        <a href="#"><img src="../../assets/img/logo-2.png" alt="Sofbox" /></a>
       </div>
 
       <nav>
