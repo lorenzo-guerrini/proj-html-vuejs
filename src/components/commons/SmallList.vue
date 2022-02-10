@@ -1,7 +1,7 @@
 <template>
   <div class="small-list">
     <div class="image">
-      <img :src="require(`../../assets/img/${image}`)" alt="" />
+      <img :src="require(`../../assets/img/${image}`)" :alt="title" />
     </div>
     <div class="text">
       <h3>{{ title }}</h3>
