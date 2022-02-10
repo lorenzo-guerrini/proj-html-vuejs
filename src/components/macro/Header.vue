@@ -9,7 +9,7 @@
       <nav>
         <ul>
           <li
-            v-for="(item, i) in menuItems"
+            v-for="(item, i) in headerMenuItems"
             :key="item.text + i"
             :class="{ active: item.active }"
           >
@@ -38,37 +38,9 @@
 <script>
 export default {
   name: "Header",
-  data() {
-    return {
-      menuItems: [
-        {
-          text: "Home",
-          url: "#",
-          active: true,
-        },
-        {
-          text: "About us",
-          url: "#",
-          active: false,
-        },
-        {
-          text: "Feature",
-          url: "#",
-          active: false,
-        },
-        {
-          text: "Testimonials",
-          url: "#",
-          active: false,
-        },
-        {
-          text: "Contact US",
-          url: "#",
-          active: false,
-        },
-      ],
-      cartCounter: 0,
-    };
+  props: {
+    headerMenuItems: Array,
+    cartCounter: Number,
   },
 };
 </script>

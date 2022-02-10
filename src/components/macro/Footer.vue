@@ -11,7 +11,7 @@
       </div>
       <div class="footer-links">
         <ul
-          v-for="(category, i) in footerItemsArray"
+          v-for="(category, i) in footerMenuItems"
           :key="category.categoryName + i"
         >
           <h4>{{ category.categoryName }}</h4>
@@ -30,86 +30,8 @@
 <script>
 export default {
   name: "Footer",
-  data() {
-    return {
-      footerItemsArray: [
-        {
-          categoryName: "Menu",
-          links: [
-            {
-              name: "About Us",
-              url: "#",
-            },
-            {
-              name: "Theme",
-              url: "#",
-            },
-            {
-              name: "Features",
-              url: "#",
-            },
-            {
-              name: "Pricing",
-              url: "#",
-            },
-            {
-              name: "Blog",
-              url: "#",
-            },
-          ],
-        },
-        {
-          categoryName: "About Us",
-          links: [
-            {
-              name: "About Sofbox",
-              url: "#",
-            },
-            {
-              name: "Roadmap",
-              url: "#",
-            },
-            {
-              name: "How It Work",
-              url: "#",
-            },
-            {
-              name: "Team",
-              url: "#",
-            },
-            {
-              name: "News",
-              url: "#",
-            },
-          ],
-        },
-        {
-          categoryName: "Quick Links",
-          links: [
-            {
-              name: "About Us",
-              url: "#",
-            },
-            {
-              name: "Theme",
-              url: "#",
-            },
-            {
-              name: "Features",
-              url: "#",
-            },
-            {
-              name: "Pricing",
-              url: "#",
-            },
-            {
-              name: "Blog",
-              url: "#",
-            },
-          ],
-        },
-      ],
-    };
+  props: {
+    footerMenuItems: Array,
   },
 };
 </script>
@@ -122,7 +44,7 @@ footer {
 }
 
 .container {
-  padding: 60px 0;
+  padding: 56px 0;
   display: flex;
 }
 
@@ -134,6 +56,7 @@ footer {
 
   img {
     width: 110px;
+    margin-bottom: 4px;
   }
 
   p {
@@ -147,6 +70,8 @@ footer {
 
 .footer-links {
   display: flex;
+
+  margin-top: 3px;
 }
 
 ul {
