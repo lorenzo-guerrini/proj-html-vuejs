@@ -1,10 +1,12 @@
 <template>
   <!-- Lista con icona, testo ed elementi -->
   <div class="small-list">
-    <div class="image"><img src="../../assets/img/24.png" alt="" /></div>
+    <div class="image">
+      <img :src="require(`../../assets/img/${image}`)" alt="" />
+    </div>
     <div class="text">
-      <h3>Online Marketing</h3>
-      <p>It is a long estabilished fact that a reader will be distracted.</p>
+      <h3>{{ title }}</h3>
+      <p>{{ paragraph }}</p>
       <ul>
         <li v-for="(item, i) in listItemsArray" :key="item + i">{{ item }}</li>
       </ul>
@@ -15,10 +17,11 @@
 <script>
 export default {
   name: "SmallList",
-  data() {
-    return {
-      listItemsArray: ["SEO", "SEM", "Website Strategy", "Social management"],
-    };
+  props: {
+    title: String,
+    paragraph: String,
+    listItemsArray: Array,
+    image: String,
   },
 };
 </script>

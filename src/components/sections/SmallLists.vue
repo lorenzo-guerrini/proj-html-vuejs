@@ -1,9 +1,24 @@
 <template>
   <section>
     <div class="container">
-      <SmallList />
-      <SmallList />
-      <SmallList />
+      <SmallList
+        :image="'24.png'"
+        :title="'Online Marketing'"
+        :paragraph="'It is a long estabilished fact that a reader will be distracted.'"
+        :listItemsArray="arrayItems"
+      />
+      <SmallList
+        :image="'24.png'"
+        :title="'Online Marketing'"
+        :paragraph="'It is a long estabilished fact that a reader will be distracted.'"
+        :listItemsArray="arrayItems"
+      />
+      <SmallList
+        :image="'24.png'"
+        :title="'Online Marketing'"
+        :paragraph="'It is a long estabilished fact that a reader will be distracted.'"
+        :listItemsArray="arrayItems"
+      />
     </div>
   </section>
 </template>
@@ -15,12 +30,17 @@ export default {
   components: {
     SmallList,
   },
+  data() {
+    return {
+      arrayItems: ["SEO", "SEM", "Website Strategy", "Social management"],
+    };
+  },
 };
 </script>
 
 <style lang="scss" scoped>
 section {
-  padding: 100px 0;
+  margin: 100px 0;
 }
 .container {
   display: flex;
