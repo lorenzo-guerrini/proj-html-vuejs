@@ -1,5 +1,4 @@
 <template>
-  <!-- Lista con icona, testo ed elementi -->
   <div class="small-list">
     <div class="image">
       <img :src="require(`../../assets/img/${image}`)" alt="" />

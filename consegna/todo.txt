@@ -1,3 +1,4 @@
 Inserire in vars.scss variabili ombre
 Inserire Loader da qualche parte
 Mettere header in position fixed
+Controllare che ogni scss sia scoped e di aver rimosso i commenti in alto
