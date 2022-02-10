@@ -8,16 +8,19 @@
       :buttonLink="'#'"
       :image="'27-1.png'"
     />
+    <SmallLists />
   </main>
 </template>
 
 <script>
 import Jumbotron from "../sections/Jumbotron.vue";
+import SmallLists from "../sections/SmallLists.vue";
 
 export default {
   name: "Main",
   components: {
     Jumbotron,
+    SmallLists,
   },
 };
 </script>

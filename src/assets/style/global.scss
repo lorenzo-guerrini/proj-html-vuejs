@@ -48,7 +48,17 @@ body {
       color: $textColorMain;
     }
 
+    h3 {
+        font-family: $fontMain;
+        color: $textColorMain;
+        font-size: 17px;
+    }
 
+
+}
+
+ul {
+    color: $textColorMain;
 }
 
 i {
