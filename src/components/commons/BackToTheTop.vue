@@ -1,5 +1,7 @@
 <template>
-  <div id="back-to-top"><a href="#"><i class="fa-solid fa-chevron-up"></i></a></div>
+  <div id="back-to-top">
+    <a href="#"><i class="fa-solid fa-chevron-up"></i></a>
+  </div>
 </template>
 
 <script>
@@ -23,7 +25,6 @@ export default {
 
     padding: 9px 13px 8px 13px;
     border-radius: 50%;
-
   }
 }
 </style>

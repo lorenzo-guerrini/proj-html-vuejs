@@ -34,7 +34,7 @@ export default {
 
   &.active {
     border: 1px solid $borderColorSecond;
-    box-shadow: 4.871px 34.659px 30px 0px #f0f0f0;
+    box-shadow: 5px 35px 30px 0px #f0f0f0;
 
     position: relative;
     z-index: 1;
