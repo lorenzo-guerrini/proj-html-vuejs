@@ -29,7 +29,7 @@ a.button {
 }
 
 body {
-    font-family: "Poppins", sans-serif;
+    font-family: $fontSecond;
 
     p {
         color: $textColorSecond;
@@ -57,10 +57,13 @@ body {
         font-size: 17px;
     }
 
-
+    h4 {
+        font-family: $fontMain;
+    }
 }
 
 ul {
+    font-family: $fontSecond;
     color: $textColorMain;
 }
 

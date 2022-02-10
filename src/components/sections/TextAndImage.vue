@@ -1,5 +1,4 @@
 <template>
-  <!-- Testo, 2 card (commons), immagine -->
   <section>
     <div class="container">
       <div class="text">

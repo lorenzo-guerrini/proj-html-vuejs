@@ -2,3 +2,4 @@ Inserire in vars.scss variabili ombre
 Inserire Loader da qualche parte
 Mettere header in position fixed
 Controllare che ogni scss sia scoped, di aver rimosso i commenti in alto e gli alt delle immagini
+Provare a rendere selectable le card in textandimage
