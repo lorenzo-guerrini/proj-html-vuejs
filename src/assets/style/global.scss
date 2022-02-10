@@ -30,10 +30,11 @@ a.button {
 
 body {
     font-family: "Poppins", sans-serif;
+
     p {
         color: $textColorSecond;
-    font-size: 12px;
-    line-height: 20px;
+        font-size: 12px;
+        line-height: 22px;
     }
 
     h1 {
@@ -46,6 +47,8 @@ body {
     h2 {
       font-family: $fontMain;
       color: $textColorMain;
+      font-size: 28px;
+      line-height: 42px;
     }
 
     h3 {
