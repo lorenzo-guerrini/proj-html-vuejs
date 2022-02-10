@@ -1,5 +1,4 @@
 <template>
-  <!-- No commons, no sections -->
   <header>
     <div class="container">
       <div class="logo">
@@ -21,6 +20,7 @@
           <div class="search">
             <i class="fa-solid fa-magnifying-glass"></i>
           </div>
+
           <div class="cart">
             <i class="fa-solid fa-cart-shopping"></i>
             <div class="cart-counter">
@@ -71,6 +71,7 @@ header {
 
 .logo {
   width: 35px;
+
   img {
     width: 100%;
   }

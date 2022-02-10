@@ -1,5 +1,5 @@
 <template>
-  <!-- No commons. Map, info e form -->
+  <!-- Sezione Contact -->
   <section></section>
 </template>
 
@@ -9,4 +9,4 @@ export default {
 };
 </script>
 
-<style></style>
+<style lang="scss" scoped></style>

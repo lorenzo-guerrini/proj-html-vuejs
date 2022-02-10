@@ -1,5 +1,5 @@
 <template>
-  <!-- Testo, bottone, feature (commons) -->
+  <!-- Sezione Features -->
   <section>
     <div class="container">
       <div class="text">
@@ -12,6 +12,7 @@
         </div>
         <a href="#" class="button">Explore More Feature</a>
       </div>
+
       <div class="features">
         <Feature
           v-for="(item, i) in featuresArray"

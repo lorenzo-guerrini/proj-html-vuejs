@@ -1,4 +1,5 @@
 <template>
+  <!-- Sezione SmallLists -->
   <section>
     <div class="container">
       <SmallList
@@ -42,6 +43,7 @@ export default {
 section {
   margin: 100px 0;
 }
+
 .container {
   display: flex;
 }

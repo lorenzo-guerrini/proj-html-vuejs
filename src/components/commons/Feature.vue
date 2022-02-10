@@ -1,4 +1,5 @@
 <template>
+  <!-- Feature della sezione Features -->
   <div class="feature" :class="color">
     <div class="name">{{ name }}</div>
     <div class="icon"><i :class="icon"></i></div>
@@ -33,6 +34,7 @@ export default {
     font-size: 14px;
     font-weight: bold;
     color: $backgroundColorFourth;
+
     margin-bottom: 10px;
   }
 

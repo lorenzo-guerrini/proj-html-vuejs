@@ -1,4 +1,0 @@
-Controllare che ogni scss sia scoped, di aver rimosso i commenti in alto e gli alt delle immagini
-Provare a rendere selectable le card in textandimage
-
-!Importante: finire le parti in consegna

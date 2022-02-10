@@ -9,12 +9,14 @@
         </p>
         <div>Copyright @2018 <a href="#">Sofbox</a></div>
       </div>
+
       <div class="footer-links">
         <ul
           v-for="(category, i) in footerMenuItems"
           :key="category.categoryName + i"
         >
           <h4>{{ category.categoryName }}</h4>
+
           <li
             v-for="(item, i) in category.links"
             :key="category.categoryName + item.name + i"
@@ -51,6 +53,7 @@ footer {
 .info {
   width: 210px;
   margin-right: 25px;
+
   font-size: 12px;
   color: $textColorSecond;
 
@@ -82,9 +85,11 @@ ul {
   h4 {
     margin-bottom: 20px;
   }
+
   li {
     font-size: 12px;
     margin-bottom: 12px;
+
     a {
       color: $textColorSecond;
     }

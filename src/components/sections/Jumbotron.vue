@@ -1,4 +1,5 @@
 <template>
+  <!-- Sezione Jumbotron -->
   <section>
     <div class="jumbotron">
       <div class="text">

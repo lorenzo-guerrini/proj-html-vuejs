@@ -1,5 +1,6 @@
 @import "vars.scss";
 
+// Generali
 * {
     margin: 0;
     padding: 0;
@@ -20,6 +21,7 @@ a {
     color: $textColorMain;
 }
 
+// Bottoni
 a.button {
     background-color: $textColorThird;
     color: $textColorFourth;
@@ -36,6 +38,7 @@ a.button {
     }
 }
 
+// Font
 body {
     font-family: $fontSecond;
 

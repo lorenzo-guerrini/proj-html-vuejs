@@ -1,5 +1,4 @@
 <template>
-  <!-- Sections: TextAndImage, Features, Testimonials, Posts, Contact -->
   <main>
     <Jumbotron
       :title="'The biggest platform for your growth.'"

@@ -1,8 +1,10 @@
 <template>
+  <!-- Card della sezione TextAndImage -->
   <div class="card" :class="{ active: isActive }">
     <div class="image">
       <img :src="require(`../../assets/img/${image}`)" :alt="title" />
     </div>
+
     <div class="text">
       <div class="title">{{ title }}</div>
       <p>{{ paragraph }}</p>
@@ -50,6 +52,7 @@ export default {
 
   display: flex;
   align-items: center;
+
   img {
     width: 100%;
   }
@@ -57,6 +60,7 @@ export default {
 
 .text {
   margin-left: 15px;
+
   .title {
     font-family: $fontMain;
     font-size: 14px;

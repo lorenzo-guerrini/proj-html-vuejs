@@ -1,4 +1,5 @@
 <template>
+  <!-- Pulsante che se cliccato manda a inizio pagina -->
   <div id="back-to-top">
     <a href="#"><i class="fa-solid fa-chevron-up"></i></a>
   </div>

@@ -1,5 +1,6 @@
 <template>
-  <!-- Immagine, nome, testo -->
+  <!-- Testimonal della sezione Testimonials -->
+  <!-- TODO: Immagine, nome, testo -->
   <div></div>
 </template>
 
@@ -9,4 +10,4 @@ export default {
 };
 </script>
 
-<style></style>
+<style lang="scss" scoped></style>

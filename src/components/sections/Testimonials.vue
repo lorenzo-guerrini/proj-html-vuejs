@@ -1,5 +1,6 @@
 <template>
-  <!-- Testo, Testimonial (commons) -->
+  <!-- Sezione Testimonials -->
+  <!-- TODO: Testo, Testimonial (commons) -->
   <section></section>
 </template>
 
@@ -9,4 +10,4 @@ export default {
 };
 </script>
 
-<style></style>
+<style lang="scss" scoped></style>

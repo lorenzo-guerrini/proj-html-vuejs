@@ -1,4 +1,5 @@
 <template>
+  <!-- Sezione TextAndImage -->
   <section>
     <div class="container">
       <div class="text">
@@ -7,6 +8,7 @@
           Faff about only a quid blower I don’t want no agro bleeding chimney
           pot burke tosser cras nice one boot fanny!
         </p>
+
         <Card
           id="0"
           :isActive="selected == 0 ? true : false"
@@ -14,6 +16,7 @@
           :title="'Reporting Analysis'"
           :paragraph="'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'"
         />
+
         <Card
           id="1"
           :isActive="selected == 1 ? true : false"
@@ -22,6 +25,7 @@
           :paragraph="'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'"
         />
       </div>
+
       <div class="image">
         <img src="../../assets/img/509.jpeg" alt="" />
       </div>
@@ -68,6 +72,7 @@ export default {
 
   display: flex;
   align-items: center;
+
   img {
     width: 100%;
   }
