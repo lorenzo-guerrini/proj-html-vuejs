@@ -1,6 +1,6 @@
 <template>
   <!-- No commons, No sections -->
-  <footer>Ciao</footer>
+  <footer></footer>
 </template>
 
 <script>

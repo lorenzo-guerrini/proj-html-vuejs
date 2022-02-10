@@ -32,10 +32,15 @@ export default {
 <style lang="scss" scoped>
 @import "../../assets/style/vars.scss";
 
+section {
+  padding-bottom: 35px;
+}
+
 .jumbotron {
   max-width: 1115px;
   margin: auto;
   padding: 10px 15px;
+  border-radius: 8px;
 
   display: flex;
 
