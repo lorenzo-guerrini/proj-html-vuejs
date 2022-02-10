@@ -27,4 +27,8 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+main {
+  padding-top: 62px;
+}
+</style>

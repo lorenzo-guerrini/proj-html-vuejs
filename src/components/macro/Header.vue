@@ -52,6 +52,13 @@ header {
   font-family: $fontMain;
   font-size: 12px;
   font-weight: bold;
+
+  background-color: $backgroundColorMain;
+
+  width: 100%;
+
+  position: fixed;
+  z-index: 999;
 }
 
 .container {
