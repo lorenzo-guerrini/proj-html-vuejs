@@ -8,8 +8,20 @@
           Faff about only a quid blower I don’t want no agro bleeding chimney
           pot burke tosser cras nice one boot fanny!
         </p>
-        <Card id="0" :isActive="selected == 0 ? true : false" />
-        <Card id="1" :isActive="selected == 1 ? true : false" />
+        <Card
+          id="0"
+          :isActive="selected == 0 ? true : false"
+          :image="'510.png'"
+          :title="'Reporting Analysis'"
+          :paragraph="'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'"
+        />
+        <Card
+          id="1"
+          :isActive="selected == 1 ? true : false"
+          :image="'511.png'"
+          :title="'Technical SEO Audit'"
+          :paragraph="'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'"
+        />
       </div>
       <div class="image">
         <img src="../../assets/img/509.jpeg" alt="" />

@@ -1,12 +1,11 @@
 <template>
   <div class="card" :class="{ active: isActive }">
-    <div class="image"><img src="../../assets/img/510.png" alt="" /></div>
+    <div class="image">
+      <img :src="require(`../../assets/img/${image}`)" :alt="title" />
+    </div>
     <div class="text">
-      <div class="title">Reporting Analysis</div>
-      <p>
-        It is a long established fact that a reader will be distracted by the
-        readable content of a page when looking at its layout.
-      </p>
+      <div class="title">{{ title }}</div>
+      <p>{{ paragraph }}</p>
     </div>
   </div>
 </template>
@@ -16,6 +15,9 @@ export default {
   name: "Card",
   props: {
     isActive: Boolean,
+    image: String,
+    title: String,
+    paragraph: String,
   },
 };
 </script>
