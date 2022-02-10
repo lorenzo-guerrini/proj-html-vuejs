@@ -9,6 +9,7 @@
     />
     <SmallLists />
     <TextAndImage />
+    <Features />
   </main>
 </template>
 
@@ -16,6 +17,7 @@
 import Jumbotron from "../sections/Jumbotron.vue";
 import SmallLists from "../sections/SmallLists.vue";
 import TextAndImage from "../sections/TextAndImage.vue";
+import Features from "../sections/Features.vue";
 
 export default {
   name: "Main",
@@ -23,6 +25,7 @@ export default {
     Jumbotron,
     SmallLists,
     TextAndImage,
+    Features,
   },
 };
 </script>
