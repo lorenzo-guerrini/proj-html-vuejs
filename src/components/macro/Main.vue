@@ -1,6 +1,5 @@
 <template>
-  <!-- Commons: SmallList -->
-  <!-- Sections: Jumbotron, TextAndImage, Features, Testimonials, Posts, Contact -->
+  <!-- Sections: TextAndImage, Features, Testimonials, Posts, Contact -->
   <main>
     <Jumbotron
       :title="'The biggest platform for your growth.'"
@@ -9,18 +8,21 @@
       :image="'27-1.png'"
     />
     <SmallLists />
+    <TextAndImage />
   </main>
 </template>
 
 <script>
 import Jumbotron from "../sections/Jumbotron.vue";
 import SmallLists from "../sections/SmallLists.vue";
+import TextAndImage from "../sections/TextAndImage.vue";
 
 export default {
   name: "Main",
   components: {
     Jumbotron,
     SmallLists,
+    TextAndImage,
   },
 };
 </script>
