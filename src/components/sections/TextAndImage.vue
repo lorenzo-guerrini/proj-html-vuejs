@@ -51,7 +51,7 @@ export default {
 
 <style lang="scss" scoped>
 section {
-  margin-top: 100px;
+  padding-top: 100px;
 }
 
 .container {

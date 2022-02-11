@@ -87,7 +87,7 @@ export default {
 
 <style lang="scss" scoped>
 section {
-  margin-top: 90px;
+  padding-top: 90px;
   position: relative;
 }
 
@@ -126,7 +126,7 @@ section {
 
   position: absolute;
   z-index: -2;
-  top: -75px;
+  top: 15px;
   left: -360px;
 }
 </style>
