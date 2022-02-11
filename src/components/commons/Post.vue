@@ -2,12 +2,11 @@
   <!-- Post della sezione Posts -->
   <div class="post">
     <a :href="url">
-
       <div class="date">{{ date }}</div>
       <div class="image">
         <img :src="require(`../../assets/img/${image}`)" :alt="title" />
       </div>
-      
+
       <div class="text">
         <div class="title">{{ title }}</div>
         <p>{{ paragraph }}</p>

@@ -10,19 +10,13 @@
         </p>
 
         <Card
-          id="0"
-          :isActive="selected == 0 ? true : false"
-          :image="'510.png'"
-          :title="'Reporting Analysis'"
-          :paragraph="'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'"
-        />
-
-        <Card
-          id="1"
-          :isActive="selected == 1 ? true : false"
-          :image="'511.png'"
-          :title="'Technical SEO Audit'"
-          :paragraph="'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'"
+          v-for="(item, i) in cardsArray"
+          :key="item.title + i"
+          :id="item.id"
+          :isActive="selected == item.id ? true : false"
+          :image="item.image"
+          :title="item.title"
+          :paragraph="item.paragraph"
         />
       </div>
 
@@ -44,6 +38,22 @@ export default {
   data() {
     return {
       selected: 0,
+      cardsArray: [
+        {
+          id: 0,
+          image: "510.png",
+          title: "Reporting Analysis",
+          paragraph:
+            "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        },
+        {
+          id: 1,
+          image: "511.png",
+          title: "Technical SEO Audit",
+          paragraph:
+            "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        },
+      ],
     };
   },
 };

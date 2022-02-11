@@ -3,22 +3,12 @@
   <section>
     <div class="container">
       <SmallList
-        :image="'24.png'"
-        :title="'Online Marketing'"
-        :paragraph="'It is a long estabilished fact that a reader will be distracted.'"
-        :listItemsArray="arrayItems"
-      />
-      <SmallList
-        :image="'24.png'"
-        :title="'Online Marketing'"
-        :paragraph="'It is a long estabilished fact that a reader will be distracted.'"
-        :listItemsArray="arrayItems"
-      />
-      <SmallList
-        :image="'24.png'"
-        :title="'Online Marketing'"
-        :paragraph="'It is a long estabilished fact that a reader will be distracted.'"
-        :listItemsArray="arrayItems"
+        v-for="(item, i) in listsArray"
+        :key="item.title + i"
+        :image="item.image"
+        :title="item.title"
+        :paragraph="item.paragraph"
+        :listItemsArray="item.arrayItems"
       />
     </div>
   </section>
@@ -33,7 +23,29 @@ export default {
   },
   data() {
     return {
-      arrayItems: ["SEO", "SEM", "Website Strategy", "Social management"],
+      listsArray: [
+        {
+          image: "24.png",
+          title: "Online Marketing",
+          paragraph:
+            "It is a long estabilished fact that a reader will be distracted.",
+          arrayItems: ["SEO", "SEM", "Website Strategy", "Social management"],
+        },
+        {
+          image: "24.png",
+          title: "Online Marketing",
+          paragraph:
+            "It is a long estabilished fact that a reader will be distracted.",
+          arrayItems: ["SEO", "SEM", "Website Strategy", "Social management"],
+        },
+        {
+          image: "24.png",
+          title: "Online Marketing",
+          paragraph:
+            "It is a long estabilished fact that a reader will be distracted.",
+          arrayItems: ["SEO", "SEM", "Website Strategy", "Social management"],
+        },
+      ],
     };
   },
 };
