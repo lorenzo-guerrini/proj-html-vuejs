@@ -1,14 +1,16 @@
 <template>
   <!-- Testimonal della sezione Testimonials -->
-  <!-- TODO: Immagine, nome, testo -->
   <div class="testimonial">
+
     <div class="image">
       <img :src="require(`../../assets/img/${image}`)" :alt="name" />
     </div>
+
     <div class="info">
       <span class="name">{{ name }}</span
       ><span class="role"> - {{ role }}</span>
     </div>
+    
     <p>{{ description }}</p>
   </div>
 </template>

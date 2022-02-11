@@ -1,7 +1,8 @@
 <template>
   <!-- Sezione Testimonials -->
-  <!-- TODO: Testo, Testimonial (commons) -->
   <section>
+    <img class="background-waves" src="../../assets/img/15.png" />
+
     <div class="container">
       <div class="text">
         <h2>Our Testimonials</h2>
@@ -21,7 +22,7 @@
           :description="item.description"
         />
       </div>
-      
+
       <div class="dots">
         <span class="dot active"><i class="fa-solid fa-circle"></i></span>
         <span class="dot"><i class="fa-solid fa-circle"></i></span>
@@ -65,12 +66,31 @@ export default {
 @import "../../assets/style/vars.scss";
 
 section {
-  margin-top: 150px;
+  padding-top: 65px;
+  margin-top: 85px;
+
+  background: linear-gradient(
+    180deg,
+    rgba(239, 245, 255, 1) 0%,
+    rgba(0, 212, 255, 0) 100%
+  );
+
+  position: relative;
+}
+
+.background-waves {
+  width: 83%;
+
+  position: absolute;
+  top: 0px;
 }
 
 .text {
   text-align: center;
   margin-bottom: 80px;
+
+  position: relative;
+  z-index: 1;
 
   h2 {
     margin-bottom: 12px;
@@ -93,7 +113,7 @@ section {
     margin: 0 2px;
 
     &.active {
-      color: $iconColorSecond !important;
+      color: $iconColorSecond;
     }
   }
 }

@@ -2,6 +2,7 @@
   <!-- Sezione Features -->
   <section>
     <div class="container">
+      
       <div class="text">
         <div>
           <h2>Popular features that your business needs</h2>
@@ -24,7 +25,7 @@
       </div>
     </div>
 
-    <img class="background-circle" src="../../assets/img/14.png">
+    <img class="background-circle" src="../../assets/img/14.png" />
   </section>
 </template>
 
