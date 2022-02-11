@@ -23,6 +23,8 @@
         />
       </div>
     </div>
+
+    <img class="background-circle" src="../../assets/img/14.png">
   </section>
 </template>
 
@@ -86,6 +88,7 @@ export default {
 <style lang="scss" scoped>
 section {
   margin-top: 90px;
+  position: relative;
 }
 
 .text {
@@ -114,5 +117,14 @@ section {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+}
+
+.background-circle {
+  width: 500px;
+
+  position: absolute;
+  z-index: -2;
+  top: -75px;
+  left: -360px;
 }
 </style>

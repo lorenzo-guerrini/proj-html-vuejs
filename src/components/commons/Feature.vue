@@ -26,6 +26,8 @@ export default {
   padding: 18px 15px;
   margin-top: 22px;
 
+  background-color: $backgroundColorMain;
+
   border-radius: 2px;
   box-shadow: 0px 0px 50px 0px #f2f2f2;
 
