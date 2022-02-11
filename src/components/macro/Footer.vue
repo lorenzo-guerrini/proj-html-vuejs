@@ -43,6 +43,7 @@ export default {
 
 footer {
   border-top: 1px solid $borderColorFifth;
+  margin-top: 115px;
 }
 
 .container {

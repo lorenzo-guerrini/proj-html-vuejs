@@ -85,7 +85,7 @@ export default {
 
 <style lang="scss" scoped>
 section {
-  margin: 90px 0;
+  margin-top: 90px;
 }
 
 .text {

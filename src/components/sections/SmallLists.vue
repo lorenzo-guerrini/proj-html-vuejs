@@ -41,7 +41,7 @@ export default {
 
 <style lang="scss" scoped>
 section {
-  margin: 100px 0;
+  margin-top: 100px;
 }
 
 .container {

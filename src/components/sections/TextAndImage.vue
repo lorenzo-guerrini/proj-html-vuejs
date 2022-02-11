@@ -50,6 +50,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+section {
+  margin-top: 100px;
+}
+
 .container {
   display: flex;
 }
