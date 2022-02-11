@@ -32,8 +32,6 @@ export default {
 
   padding: 25px 8px 25px 10px;
 
-  cursor: pointer;
-
   &.active {
     border: 1px solid $borderColorSecond;
     box-shadow: 5px 35px 30px 0px #f0f0f0;
