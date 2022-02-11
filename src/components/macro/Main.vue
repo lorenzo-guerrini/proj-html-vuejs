@@ -9,6 +9,7 @@
     <SmallLists />
     <TextAndImage />
     <Features />
+    <Testimonials />
   </main>
 </template>
 
@@ -17,6 +18,7 @@ import Jumbotron from "../sections/Jumbotron.vue";
 import SmallLists from "../sections/SmallLists.vue";
 import TextAndImage from "../sections/TextAndImage.vue";
 import Features from "../sections/Features.vue";
+import Testimonials from "../sections/Testimonials.vue";
 
 export default {
   name: "Main",
@@ -25,6 +27,7 @@ export default {
     SmallLists,
     TextAndImage,
     Features,
+    Testimonials,
   },
 };
 </script>
