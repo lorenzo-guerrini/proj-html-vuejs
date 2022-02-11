@@ -10,6 +10,7 @@
     <TextAndImage />
     <Features />
     <Testimonials />
+    <Posts />
   </main>
 </template>
 
@@ -19,6 +20,7 @@ import SmallLists from "../sections/SmallLists.vue";
 import TextAndImage from "../sections/TextAndImage.vue";
 import Features from "../sections/Features.vue";
 import Testimonials from "../sections/Testimonials.vue";
+import Posts from "../sections/Posts.vue";
 
 export default {
   name: "Main",
@@ -28,6 +30,7 @@ export default {
     TextAndImage,
     Features,
     Testimonials,
+    Posts,
   },
 };
 </script>
