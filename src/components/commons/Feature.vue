@@ -24,7 +24,7 @@ export default {
   width: 200px;
   height: 120px;
   padding: 18px 15px;
-  margin-top: 22px;
+  margin: 12px 12px;
 
   background-color: $backgroundColorMain;
 

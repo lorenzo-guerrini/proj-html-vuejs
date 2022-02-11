@@ -67,7 +67,7 @@ export default {
 
 section {
   padding-top: 65px;
-  margin-top: 85px;
+  margin-top: 75px;
 
   background: linear-gradient(
     180deg,
@@ -99,11 +99,11 @@ section {
 
 .testimonials {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .dots {
-  margin-top: 45px;
+  margin-top: 30px;
   text-align: center;
 
   .dot {

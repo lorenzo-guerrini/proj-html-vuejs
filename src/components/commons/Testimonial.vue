@@ -1,7 +1,6 @@
 <template>
   <!-- Testimonal della sezione Testimonials -->
   <div class="testimonial">
-
     <div class="image">
       <img :src="require(`../../assets/img/${image}`)" :alt="name" />
     </div>
@@ -10,7 +9,7 @@
       <span class="name">{{ name }}</span
       ><span class="role"> - {{ role }}</span>
     </div>
-    
+
     <p>{{ description }}</p>
   </div>
 </template>
@@ -36,6 +35,7 @@ export default {
   background-color: $backgroundColorMain;
 
   padding: 35px 24px;
+  margin: 0 23px;
   border-radius: 4px;
 
   box-shadow: -6px 15px 30px 0px #f2f2f2;

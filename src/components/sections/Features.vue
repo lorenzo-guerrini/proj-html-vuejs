@@ -2,7 +2,6 @@
   <!-- Sezione Features -->
   <section>
     <div class="container">
-      
       <div class="text">
         <div>
           <h2>Popular features that your business needs</h2>
@@ -117,7 +116,9 @@ section {
 .features {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
+
+  margin-top: 10px;
 }
 
 .background-circle {
